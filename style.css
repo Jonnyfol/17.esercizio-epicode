@@ -1,0 +1,64 @@
+.navbar-nav .nav-link,
+.navbar-nav .dropdown-item {
+  color: black !important;
+}
+
+.navbar-toggler-icon {
+  background-color: black !important;
+}
+
+.material-symbols-outlined {
+  color: black !important;
+}
+
+
+.tondo{
+    border-radius: 50%;
+    max-height: 30px;
+    
+}
+.purple{
+    background-color: rgb(123, 62, 236);
+    width: 100%;
+    height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bianco{
+    background-color: white !important;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
