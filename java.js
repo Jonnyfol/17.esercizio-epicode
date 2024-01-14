@@ -15,8 +15,18 @@
 // })
 
 
-    var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExample'), {
-        interval: 2000, // Tempo di transizione tra le slide in millisecondi (imposta a 0 per disabilitare l'autoplay)
-        wrap: true // Se il carosello deve tornare alla prima slide dopo l'ultima
-    });
+    // var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExample'), {
+    //     interval: 2000, // Tempo di transizione tra le slide in millisecondi (imposta a 0 per disabilitare l'autoplay)
+    //     wrap: true // Se il carosello deve tornare alla prima slide dopo l'ultima
+    // });
 
+
+
+    function changeIconClass(icon) {
+        icon.classList.remove("fa-regular");
+        icon.classList.add("fa-solid");
+        
+    }
+    
+
+  

@@ -62,3 +62,26 @@
 .carousel-inner .carousel-item-start { 
   transform: translateX(0);
 }
+
+
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+#book-regular{
+  position:relative;
+}
+
+#book-solid{
+  position: absolute;
+  left:0;
+  z-index: 1;
+  transition: all 1s ease-in-out 0.5;
+  opacity: 0;
+}
+
+#book-solid:hover{
+  opacity:1;
+}
